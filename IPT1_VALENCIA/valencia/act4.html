@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruz</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; /* Center content vertically */
+            margin: 0;
+            height: 100vh;
+            background-color: #f9f9f9; /* Light background */
+            font-family: 'Arial', sans-serif; /* Font style */
+        }
+
+        img {
+            position: absolute;
+            top: 100px; /* Space from the top to make room for buttons */
+            left: 20px; /* Space from the left */
+            width: 400px; /* Increased size */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+        }
+
+        .buttons {
+            position: absolute;
+            top: 20px; /* Space from the top */
+            display: flex;
+            gap: 40px; /* Space between buttons */
+        }
+
+        button {
+            padding: 15px 30px; /* Increased padding for a better touch area */
+            border: none;
+            border-radius: 25px; /* More rounded corners */
+            background: linear-gradient(135deg, #007BFF, #0056b3); /* Gradient background */
+            color: white; /* Text color */
+            font-size: 24px; /* Adjusted font size */
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s; /* Smooth transition */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+        }
+
+        button:hover {
+            background: linear-gradient(135deg, #0056b3, #003f7f); /* Darker gradient on hover */
+            transform: translateY(-2px); /* Lift effect on hover */
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0; /* Spacing above and below */
+            color: #333; /* Text color */
+            font-size: 3em; /* Font size */
+            text-transform: uppercase; /* Make text uppercase */
+        }
+
+        .description {
+            text-align: center;
+            font-size: 1.2em; /* Adjusted font size for readability */
+            color: #555; /* Slightly lighter text color */
+            width: 80%; /* Prevent text from getting too wide */
+            margin: 10px auto;
+        }
+
+        /* Main content section */
+        main {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #8b1919;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow around content */
+            border-radius: 10px;
+            width: 80%; /* Responsive width */
+            margin-top: 120px; /* Pushes the content below the header section */
+        }
+
+        /* Navigation bar */
+        nav {
+            margin-bottom: 50px; /* Space between nav and main content */
+        }
+
+        nav a {
+            font-size: 20px;
+            margin: 0 20px;
+            color: #0056b3;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #003f7f;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Me</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+        <img src="rafael.jpg" alt="Image of a student working with technology">
+        <h1>navi </h1>
+		<h1>navi </h1>
+        <div class="description">
+        </div>
+    </main>
+</body>
+</html>
